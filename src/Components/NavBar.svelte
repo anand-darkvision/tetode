@@ -82,6 +82,6 @@
   }
   .navbar {
     background-color: transparent;
-    transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
   }
 </style>

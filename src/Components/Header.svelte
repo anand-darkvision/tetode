@@ -1,21 +1,16 @@
 <script>
-  
 </script>
 
 <div
   class="card"
   style="width:100%;margin-top: 76px;border-top: none;background-color: #FE6244; border-bottom-width: 3px; border-style: solid;"
 >
-  <div class="row gx-5">
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Stay Awake</h5>
-        <p class="card-text">Share, Disscuss , And Create</p>
-        <p class="card-text second" style="padding-top: 0;">
-          New Ideas And Connect with People Around The world
-        </p>
-      </div>
-    </div>
+  <div class="card-body">
+    <h5 class="card-title">Stay Creative</h5>
+    <p class="card-text">Share, Disscuss, Create</p>
+    <p class="card-text second" style="padding-top: 0;">
+      New Ideas And Connect People Around The world
+    </p>
   </div>
 </div>
 
@@ -36,5 +31,4 @@
   .card {
     padding-bottom: 5%;
   }
-  
 </style>
