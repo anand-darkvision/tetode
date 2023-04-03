@@ -167,7 +167,7 @@
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
   .hero {
-    padding-left: 5.4%;
+    padding-left: 10%;
     padding-top: 2%;
   }
   .hero p {
