@@ -1,11 +1,13 @@
 <script>
-	import NewContent from './../Components/NewContent.svelte';
-  import Header from "../Components/Header.svelte";
-import NavBar from "../Components/NavBar.svelte";
+  import NewContent from "../Pages/NewContent.svelte";
+  import Header from "../Pages/Header.svelte";
+  import NavBar from "../Pages/NavBar.svelte";
+  import MainContent from "../Pages/MainContent.svelte";
 </script>
 
 <NavBar />
-<Header/>
-<NewContent/>
-<hr/>
-<div style="padding-top: 2000px;"></div>
+<Header />
+<NewContent />
+<MainContent />
+<style>
+</style>

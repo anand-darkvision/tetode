@@ -10,7 +10,7 @@
       >What's new TODAY
     </p>
   </div>
-  <div class="card-grid">
+  <div class="card-grid " style="">
     <div class="container text-start">
       <div class="row">
         <div class="col">
@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">
@@ -163,7 +163,7 @@
     </div>
   </div>
 </div>
-
+<hr style="margin-bottom: 0;"/>
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
   .hero {

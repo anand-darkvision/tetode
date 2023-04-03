@@ -5,7 +5,7 @@
   let navBar;
 
   function handleScroll() {
-    if (window.scrollY > 500) {
+    if (window.scrollY > 530) {
       navBar.style.backgroundColor = "white";
     } else if (window.scrollY > 0) {
       navBar.style.backgroundColor = "#FE6244";
