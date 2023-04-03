@@ -6,7 +6,7 @@
   style="width:100%;margin-top: 76px;border-top: none;background-color: #FE6244; border-bottom-width: 3px; border-style: solid;"
 >
   <div class="card-body">
-    <h5 class="card-title">Stay Creative</h5>
+    <h5 class="card-title">Stay Creative !</h5>
     <p class="card-text">Share, Disscuss, Create</p>
     <p class="card-text second" style="padding-top: 0;">
       New Ideas And Connect People Around The world
