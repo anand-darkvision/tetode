@@ -1,38 +1,185 @@
 <script></script>
 
 <div>
-  <div class="container text-center">
+  <div class="container">
     <div class="row">
-      <div class="col-8 border-end">
-        Ad dolor esse Lorem ea est tempor labore do irure magna. Exercitation
-        velit anim anim reprehenderit cupidatat non magna veniam deserunt.
-        Aliqua et quis eu veniam quis consectetur elit aute elit tempor
-        consectetur. Aliqua proident exercitation est incididunt quis minim
-        pariatur ex magna nostrud anim nisi nostrud.Sunt laborum duis proident
-        ad ea exercitation ullamco tempor pariatur irure quis culpa. Laboris
-        esse fugiat velit velit id. Reprehenderit reprehenderit velit culpa
-        incididunt veniam nostrud duis commodo. Ea ullamco mollit veniam quis
-        nisi consectetur aliquip nisi esse eu labore eiusmod occaecat labore.
-        Sunt do Lorem aliqua officia culpa adipisicing proident laboris labore
-        consequat magna consequat labore voluptate. Ea sint labore aliqua amet
-        sunt ad officia ullamco labore ut proident id excepteur. Sint ad est
-        reprehenderit id culpa culpa elit quis ut.Id amet consequat incididunt
-        do excepteur proident excepteur sit nisi ea ullamco. Magna ullamco velit
-        laborum cupidatat. Aliquip enim cupidatat dolor irure. Culpa nulla velit
-        aute cupidatat nulla incididunt mollit aliqua non aute labore dolor
-        nulla in. Qui occaecat ea reprehenderit voluptate est tempor
-        reprehenderit ipsum Lorem.Velit pariatur incididunt ipsum est proident
-        velit esse ullamco quis ea. Dolor sit voluptate reprehenderit laborum eu
-        Lorem pariatur nostrud cupidatat deserunt laborum id. In consectetur ad
-        laborum et est aliquip labore do id.Deserunt magna consectetur sunt qui
-        enim dolor duis. Cillum do fugiat veniam voluptate Lorem et et dolore
-        aute elit proident. Sunt tempor Lorem est ut proident est deserunt
-        officia. Eiusmod ipsum dolor sit dolore dolore laborum officia proident.
-        Lorem nostrud sint proident tempor deserunt officia occaecat nulla
-        cupidatat.
-        <div style="padding-top: 500px;" />
+      <div class="col-8 border-end" style="overflow-y: scroll; height:860px">
+        <div class="card" style="margin: 2% 0% 2% 0%;border: none;">
+          <div class="card-body">
+            <h5 class="card-title">
+              <span class="user-name"
+                ><img
+                  class="avatar"
+                  src="https://randomuser.me/api/portraits/men/73.jpg"
+                  alt="user"
+                /><span />@Adam123
+              </span>
+            </h5>
+            <h5 class="card-title">How to remotly hack servers</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content. Et deserunt aliquip anim consequat fugiat. Sunt
+              exercitation aliquip deserunt adipisicing anim eu ipsum eiusmod.
+              Fugiat elit dolore ad esse est consectetur nulla laboris Lorem.
+              Dolor sint id sit proident incididunt dolore magna excepteur enim
+              tempor excepteur. Incididunt enim ullamco et qui sint fugiat amet
+              officia voluptate......
+            </p>
+            <div class="footer">
+              <p>
+                Jan 23<span><i class="fa-regular fa-bookmark iconClass" /></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin: 2% 0% 2% 0%;border: none;">
+          <div class="card-body">
+            <h5 class="card-title">
+              <span class="user-name"
+                ><img
+                  class="avatar"
+                  src="https://randomuser.me/api/portraits/men/70.jpg"
+                  alt="user"
+                /><span />@Mark56
+              </span>
+            </h5>
+            <h5 class="card-title">A car accident 4 dead</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.Ipsum ea magna minim aliqua esse. Pariatur quis aliquip
+              veniam anim deserunt Lorem. Cillum id anim quis dolor duis enim
+              adipisicing eu enim tempor ipsum consectetur. Minim in
+              exercitation est nulla. Labore laborum ea qui nulla culpa non
+              ullamco ullamco. Officia officia ipsum voluptate eiusmod eiusmod
+              occaecat ut pariatur deserunt qui exercitation officia id. Sint
+              irure velit reprehenderit nostrud dolor pariatur incididunt dolore
+              eiusmod sit......
+            </p>
+            <div class="footer">
+              <p>
+                Feb 14<span><i class="fa-regular fa-bookmark iconClass" /></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin: 2% 0% 2% 0%;border: none;">
+          <div class="card-body">
+            <h5 class="card-title">
+              <span class="user-name"
+                ><img
+                  class="avatar"
+                  src="https://randomuser.me/api/portraits/men/65.jpg"
+                  alt="user"
+                /><span />@Iamtech35
+              </span>
+            </h5>
+            <h5 class="card-title">Chat Gpt leads the world</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.Ut eiusmod proident commodo aliquip amet commodo
+              reprehenderit minim nostrud et ullamco. Aute eiusmod esse officia
+              proident amet ex nostrud commodo commodo cupidatat consectetur ea
+              nostrud nostrud. Aliqua qui culpa dolore eiusmod. Cillum minim
+              duis in eu......
+            </p>
+            <div class="footer">
+              <p>
+                Feb 30<span><i class="fa-regular fa-bookmark iconClass" /></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin: 2% 0% 2% 0%;border: none;">
+          <div class="card-body">
+            <h5 class="card-title">
+              <span class="user-name"
+                ><img
+                  class="avatar"
+                  src="https://randomuser.me/api/portraits/men/76.jpg"
+                  alt="user"
+                /><span />@Joel36
+              </span>
+            </h5>
+            <h5 class="card-title">Tetode reaches crore users</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.Cillum proident ea culpa enim magna anim non do excepteur
+              minim. Elit aliqua amet cillum adipisicing esse adipisicing esse
+              proident mollit non elit labore ut consectetur. Ad mollit
+              voluptate cillum ipsum velit ea elit exercitation. Veniam magna
+              laboris incididunt ullamco qui aute ex dolor reprehenderit......
+            </p>
+            <div class="footer">
+              <p>
+                Dec 01<span><i class="fa-regular fa-bookmark iconClass" /></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin: 2% 0% 2% 0%;border: none;">
+          <div class="card-body">
+            <h5 class="card-title">
+              <span class="user-name"
+                ><img
+                  class="avatar"
+                  src="https://randomuser.me/api/portraits/men/77.jpg"
+                  alt="user"
+                /><span />@Findme99
+              </span>
+            </h5>
+            <h5 class="card-title">
+              Twitter source code released by the company officially on github
+            </h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.Dolor do cupidatat anim laboris proident eiusmod est irure
+              voluptate. Consequat minim dolore sit aute Lorem. Ad ipsum sint
+              amet velit non quis sit officia eu proident dolor excepteur
+              aliquip. Lorem occaecat eu consequat sunt officia exercitation
+              dolore id sunt do incididunt reprehenderit ad qui.......
+            </p>
+            <div class="footer">
+              <p>
+               Apr 07<span><i class="fa-regular fa-bookmark iconClass" /></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin: 2% 0% 2% 0%;border: none;">
+          <div class="card-body">
+            <h5 class="card-title">
+              <span class="user-name"
+                ><img
+                  class="avatar"
+                  src="https://randomuser.me/api/portraits/men/78.jpg"
+                  alt="user"
+                /><span />@Iamgod34
+              </span>
+            </h5>
+            <h5 class="card-title">
+              One of the great content sharing platform
+            </h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.Quis mollit ut commodo cupidatat incididunt consectetur.
+              Magna proident est sunt cupidatat. Enim voluptate enim culpa aute
+              ad cupidatat consectetur........
+            </p>
+            <div class="footer">
+              <p>
+                Jan 23<span><i class="fa-regular fa-bookmark iconClass" /></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
+      <div class="col-4 text-center">
         <div class="side" style="justify-content:left;">
           <h3>Search For Specified Contents</h3>
           <button type="button" class="btn btn-outline-secondary">Food</button>
@@ -62,7 +209,9 @@
           <a href="Privacy">Privacy</a>
         </div>
         <div class="prod">
-          <p style="color:gray;word-spacing: 10px;">a <span style="word-spacing: 2px;">Anandan R</span> Production</p>
+          <p style="color:#2D2727;word-spacing: 10px;">
+            a <span style="word-spacing: 2px;">Anandan R</span> Production
+          </p>
         </div>
         <div class="copyr">
           <p>Tetode © 2023</p>
@@ -73,6 +222,14 @@
 </div>
 
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+  .col-8::-webkit-scrollbar {
+    display: none;
+  }
+  .col-8 {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
   h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -82,15 +239,45 @@
   button {
     margin: 2% 2% 2% 2%;
   }
-  .tags a{
+  .tags a {
     text-decoration: none;
     color: gray;
     margin: 3% 3% 3% 3%;
   }
-  .tags a:hover{
+  .tags a:hover {
     color: black !important;
   }
-  .prod p{
+  .prod p {
     margin: 4% 4% 4% 4%;
+  }
+  .copyr p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    color: #2D2727;
+  }
+  .card-title {
+    font-size: 210%;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .card-text {
+    font-family: "Poppins", sans-serif;
+    padding-top: 3%;
+    font-size: 130%;
+  }
+  img.avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  .user-name {
+    font-size: small;
+  }
+  .iconClass {
+    padding-left: 90%;
+  }
+  .footer {
+    padding-top: 1%;
+    color: gray;
   }
 </style>
