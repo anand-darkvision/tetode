@@ -24,13 +24,15 @@
   bind:this={navBar}
 >
   <div class="container-fluid " style="padding-left: 5vw;">
-    <img
-      src={Logo}
-      alt="Logo"
-      width="200"
-      height="60"
-      style="padding-bottom: 1%;"
-    />
+    <a href="./" class="imge-link">
+      <img
+        src={Logo}
+        alt="Logo"
+        width="200"
+        height="60"
+        style="padding-bottom: 1%;"
+      />
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -51,7 +53,7 @@
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link fs-5" href="#product " style="color: black;"
+        <a class="nav-link fs-5" href="./motive" style="color: black;"
           >OUR MOTIVE</a
         >
       </li>
