@@ -1,9 +1,45 @@
-<script>
+<script >
+  import {
+    GoogleAuthProvider,
+    signInWithPopup,
+    getAuth,
+    onAuthStateChanged,
+  } from 'firebase/auth';
   import Logo from "../Assets/logo_tranparent.png";
   import { onMount } from "svelte";
+  import { initializeApp } from "firebase/app";
+
+  // firebase config
+
+
+  let user=null;
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCBH-d34GR4q-qv3yWolY2yxc_rsUsyWcw",
+    authDomain: "tetode-e3b08.firebaseapp.com",
+    projectId: "tetode-e3b08",
+    storageBucket: "tetode-e3b08.appspot.com",
+    messagingSenderId: "972864826221",
+    appId: "1:972864826221:web:74a2944c400f2121390864",
+    measurementId: "G-H7PSVR6ZRH",
+  };
+
+  //initialize app
+
+  const app = initializeApp(firebaseConfig);
+
+  //login
+  const login = () => {
+    const auth = getAuth(app);
+    signInWithPopup(auth, new GoogleAuthProvider());
+  };
+  //logout
 
   onMount(() => {
-    window.addEventListener("scroll", handleScroll);
+    const auth = getAuth(app);
+    onAuthStateChanged(auth, (newuser) => {
+      user = newuser;
+    });
   });
   function on() {
     document.getElementById("overlay").style.display = "block";
@@ -73,7 +109,7 @@
         </svg>
       </div>
       <div style="padding-top: 2%%;display: flex;justify-content: center;">
-        <a href="#ds" class="google btn fs-4" style="color:#FE6244">
+        <a href="#ds" class="google btn fs-4" style="color:#FE6244" on:click={login}>
           <i class="fa fa-google fa-fw fs-4" /> Login with Google
         </a>
       </div>
@@ -84,8 +120,12 @@
         >Having any TroubleShoot ? Don't Hesitate to Contact us</a
       >
       <div class="footer">
-        <p style="font-size: 0.8em;  display: flex; justify-content: center;padding-top: 20%;color: gray;">
-         click signIn to agree the Tetode's <a class="tandc" href="#23">Terms and Conditions</a>
+        <p
+          style="font-size: 0.8em;  display: flex; justify-content: center;padding-top: 20%;color: gray;"
+        >
+          click signIn to agree the Tetode's <a class="tandc" href="#23"
+            >Terms and Conditions</a
+          >
         </p>
       </div>
     </div>
@@ -135,9 +175,10 @@
         >
       </li>
       <li class="nav-item">
+        <!-- svelte-ignore a11y-missing-attribute -->
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
         <a
           class="nav-link fs-5"
-          href="#ew"
           on:click={on}
           style="color: black;padding-right:40px;">SIGN IN</a
         >
@@ -162,7 +203,7 @@
     font-family: "Poppins", sans-serif;
     padding-top: 6%;
   }
-  .tandc{
+  .tandc {
     color: gray;
     padding-left: 1%;
   }
@@ -188,17 +229,7 @@
   .forget:hover {
     text-decoration: underline;
   }
-
-  #text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
-    color: white;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
+  
   .card {
     position: absolute;
     top: 22%;
