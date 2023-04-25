@@ -1,4 +1,4 @@
-<div>
+<div style="padding-top: 2%;">
    <div class="tags">
     <a href="help">Help</a>
           <a href="blog">Blog</a>
@@ -12,7 +12,7 @@
 </div>
 
 
-<style>
+<style>    
     .tags{
         justify-content: center;
         text-align: center;
@@ -35,5 +35,5 @@
         justify-content: center;
         text-align: center;
     }
-
+   
 </style>

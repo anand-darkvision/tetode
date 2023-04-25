@@ -4,6 +4,7 @@
   import image2 from "../../Assets/2.jpg";
   import image3 from "../../Assets/3.jpg";
   import Footer from "../../lib/footer.svelte";
+  import MainImage from "../../Assets/logo_svg.svg";
 </script>
 
 <NavBar />
@@ -27,35 +28,32 @@
       </p>
     </div>
     <div class="col-6" style="padding: 0px;">
-      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={image1} class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src={image2} class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src={image3} class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="image">
+        <img src={MainImage} alt="Tetode">
       </div>
     </div>
   </div>
 </div>
-<hr style="margin-bottom: 0;margin-top: 0;" />
+<hr style="margin-bottom: 0;margin-top: 0;background-color: white;" />
 <div class="content3">
   <p class="headerContent">
-
+    We Provide the space to Work And Collabrate 
   </p>
+  <p class="headerContent2">
+    Your IDEAS
+  </p>
+  <p class="quotes" style="padding-top: 3%;">
+      The more an idea is developed, the more concise becomes its expression;
+  </p>
+  <p class="quotes">
+      the more a tree is pruned, the better is the fruit.
+  </p>
+  <p class="author">
+    - Alfred Bougeart
+  </p>
+  <div class="butt" style="padding-bottom: 5%;">
+    <button type="button" class="btn btn-outline-secondary" style="color:white;font-size:2vw;border-radius: 30px;">Write Your Ideas</button>
+  </div>Alfred Bougear
 </div>
 
 <!-- footer -->
@@ -95,16 +93,37 @@
     font-weight: 300;
     font-family: "Newsreader", serif;
   }
-  .carousel > .carousel-inner > .carousel-item > img {
-    width: 200px; /* Yeap you can change the width and height*/
-    height: 330px;
-  }
   .content3{
     max-width: 100%;
     max-height: 30%;
-    background-color: black;
+    background-color: #000;
     color: white;
     justify-content: center;
     text-align: center;
+  }
+  .headerContent{
+    font-family: "Newsreader", serif;
+    font-weight: 200;
+    font-size: 5vw;
+  }
+  .headerContent2{
+    font-family: "Newsreader", serif;
+    font-weight: bolder;
+    font-size:4.5vw
+  }
+  .quotes{
+    font-family: "Newsreader", serif;
+    font-weight: 800;
+    font-size:2vw;
+  }
+  .author{
+    font-family: "Newsreader", serif;
+    padding-left: 40%;
+    padding-top: 1%;
+    font-size: large;
+    font-weight: bolder;
+  }
+  .image{
+    height:20vw;
   }
 </style>
