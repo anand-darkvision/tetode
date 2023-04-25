@@ -20,7 +20,7 @@
     .tags a {
         text-decoration: none;
         color: gray;
-        margin: 3% 3% 3% 3%;
+        margin: 1% 1% 1% 1%;
     }
     .tags a:hover {
         color: black !important;

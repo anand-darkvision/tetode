@@ -1,10 +1,7 @@
 <script>
   import NavBar from "./../../Pages/NavBar.svelte";
-  import image1 from "../../Assets/1.jpg";
-  import image2 from "../../Assets/2.jpg";
-  import image3 from "../../Assets/3.jpg";
   import Footer from "../../lib/footer.svelte";
-  import MainImage from "../../Assets/logo_svg.svg";
+  import MainImage from "../../Assets/MainImage.svg";
 </script>
 
 <NavBar />
@@ -36,7 +33,7 @@
 </div>
 <hr style="margin-bottom: 0;margin-top: 0;background-color: white;" />
 <div class="content3">
-  <p class="headerContent">
+  <p class="headerContent" style="padding-top:2%">
     We Provide the space to Work And Collabrate 
   </p>
   <p class="headerContent2">
@@ -52,15 +49,111 @@
     - Alfred Bougeart
   </p>
   <div class="butt" style="padding-bottom: 5%;">
-    <button type="button" class="btn btn-outline-secondary" style="color:white;font-size:2vw;border-radius: 30px;">Write Your Ideas</button>
-  </div>Alfred Bougear
+    <button type="button" class="btn btn-outline-secondary" style="font-size:2vw;border-radius: 30px;">Join Us Today</button>
+  </div>
 </div>
+<hr style="margin-bottom: 0; margin-top: 0; background-color: white;"/>
+<div class="content4">
+  <p class="header">
+    Read Our Latest Articles
+  </p>
+  <div class="container">
+    <div class="row row-cols-2 row-cols-lg-2 g-5 g-lg-3">
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/77.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross Near...."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/77.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross Near...."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/77.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross Near...."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/77.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross Near...."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/77.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross Near...."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/77.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross Near...."</button>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Famous Articles -->
+
+
 
 <!-- footer -->
 <Footer/>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
+
+  img.avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  .user .btn-outline-secondary{
+    font-size: 1.4vw;
+    color: black;
+  }
+  .user .btn-outline-secondary:hover{
+    background-color: transparent;
+  }
+
+  .content4 .header{
+    font-size: 4vw;
+    font-weight: 900;
+    font-family: "Newsreader", serif;
+    padding-top: 2%;
+  }
 
   hr {
     height: 0px;
@@ -90,14 +183,21 @@
     padding-left: 5%;
     font-size: 1.8vw;
     color: #3c4048;
-    font-weight: 300;
+    font-weight: 900;
     font-family: "Newsreader", serif;
   }
   .content3{
     max-width: 100%;
-    max-height: 30%;
     background-color: #000;
     color: white;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content4{
+    max-width: 100%;
+    background-color: #FFA559;
+    color: #000;
     justify-content: center;
     text-align: center;
   }
@@ -123,7 +223,20 @@
     font-size: large;
     font-weight: bolder;
   }
-  .image{
+  img{
     height:20vw;
+    width:50vw;
   }
+  .butt{
+    font-family: "Newsreader", serif;
+  }
+
+  .btn-outline-secondary{
+    color:white;
+  }
+  .btn-outline-secondary:hover {
+    background-color: white;
+    color: black;
+  }
+
 </style>

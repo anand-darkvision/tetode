@@ -210,7 +210,7 @@
         </div>
         <div class="prod">
           <p style="color:#2D2727;word-spacing: 10px;">
-            a <span style="word-spacing: 2px;">Anandan Raguraman</span> Production
+            a <span style="word-spacing: 2px;">Anandan R</span> Production
           </p>
         </div>
         <div class="copyr">
