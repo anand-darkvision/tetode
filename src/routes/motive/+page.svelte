@@ -3,6 +3,7 @@
   import image1 from "../../Assets/1.jpg";
   import image2 from "../../Assets/2.jpg";
   import image3 from "../../Assets/3.jpg";
+  import Footer from "../../lib/footer.svelte";
 </script>
 
 <NavBar />
@@ -51,6 +52,14 @@
   </div>
 </div>
 <hr style="margin-bottom: 0;margin-top: 0;" />
+<div class="content3">
+  <p class="headerContent">
+
+  </p>
+</div>
+
+<!-- footer -->
+<Footer/>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
@@ -73,8 +82,9 @@
   }
   .content2 {
     border-style: solid;
+    border-width: 2px;
     border-top: none;
-    border-color: black;
+    border-color: grey;
     border-bottom: none;
     padding: 0;
   }
@@ -87,6 +97,14 @@
   }
   .carousel > .carousel-inner > .carousel-item > img {
     width: 200px; /* Yeap you can change the width and height*/
-    height: 380px;
+    height: 330px;
+  }
+  .content3{
+    max-width: 100%;
+    max-height: 30%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
   }
 </style>
