@@ -48,6 +48,9 @@
   <p class="author">
     - Alfred Bougeart
   </p>
+
+  <!-- Famous Articles -->
+
   <div class="butt" style="padding-bottom: 5%;">
     <button type="button" class="btn btn-outline-secondary" style="font-size:2vw;border-radius: 30px;">Join Us Today</button>
   </div>
@@ -57,8 +60,7 @@
   <p class="header">
     Read Our Latest Articles
   </p>
-  <div class="container">
-    <div class="row row-cols-2 row-cols-lg-2 g-5 g-lg-3">
+    <div class="row row-cols-2 row-cols-lg-3 g-5 g-lg-3">
       <div class="col">
         <div class="user">
           <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
@@ -66,7 +68,7 @@
             class="avatar"
             src="https://randomuser.me/api/portraits/men/77.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross Near...."</button>
+          /> <span class="username">@adam123</span>"ChatGpt Cross 12 million......."</button>
         </div>
       </div>
       <div class="col">
@@ -74,9 +76,9 @@
           <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
             <img
             class="avatar"
-            src="https://randomuser.me/api/portraits/men/77.jpg"
+            src="https://randomuser.me/api/portraits/men/78.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross Near...."</button>
+          /><span class="username">@taktak23</span> "17 Found dead on hillside......."</button>
         </div>
       </div>
       <div class="col">
@@ -84,9 +86,9 @@
           <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
             <img
             class="avatar"
-            src="https://randomuser.me/api/portraits/men/77.jpg"
+            src="https://randomuser.me/api/portraits/men/67.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross Near...."</button>
+          /> <span class="username">@soma45</span>"Got the worst Experience........"</button>
         </div>
       </div>
       <div class="col">
@@ -94,9 +96,9 @@
           <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
             <img
             class="avatar"
-            src="https://randomuser.me/api/portraits/men/77.jpg"
+            src="https://randomuser.me/api/portraits/men/56.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross Near...."</button>
+          /> <span class="username">@harik69 </span>"The finnest Wine on ........"</button>
         </div>
       </div>
       <div class="col">
@@ -104,9 +106,9 @@
           <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
             <img
             class="avatar"
-            src="https://randomuser.me/api/portraits/men/77.jpg"
+            src="https://randomuser.me/api/portraits/men/71.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross Near...."</button>
+          /> <span class="username">@macintosh</span>"Apple launches mac m2....."</button>
         </div>
       </div>
       <div class="col">
@@ -114,25 +116,115 @@
           <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
             <img
             class="avatar"
-            src="https://randomuser.me/api/portraits/men/77.jpg"
+            src="https://randomuser.me/api/portraits/men/73.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross Near...."</button>
+          /> <span class="username">@joes233</span>"The F1 Race stops due to......."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/74.jpg"
+            alt="user"
+          /> <span class="username">@anime34</span>"The "Your Name" anime......."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/79.jpg"
+            alt="user"
+          /> <span class="username">@ram345 </span>"Indian Railway shows......"</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/78.jpg"
+            alt="user"
+          /> <span class="username">@rios245</span>"Avatar wins OSCAR on......."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/69.jpg"
+            alt="user"
+          /> <span class="username">@devilips</span>"Government funding......."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/68.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross 12 million......."</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="user">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+            <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/men/67.jpg"
+            alt="user"
+          /> @adam123 "ChatGpt Cross 12 million......."</button>
         </div>
         <br>
       </div>
     </div>
+    <hr style="padding-bottom: 2%;">
+    <div class="read">
+      <p>To Know more ...</p>
+    </div>
+    <div class="readmore">
+      <a href="#ds">ReadMore --></a>
+    </div>
+    
   </div>
-</div>
-<!-- Famous Articles -->
-
-
 
 <!-- footer -->
 <Footer/>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
+  .readmore{
+    padding-bottom: 5%;
+  }
+  .readmore a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    font-family: "Poppins", sans-serif;
+  }
 
+  .readmore a:hover{
+    color: grey;
+    text-decoration: underline;
+  }
+  .read p{
+    font-size: 5vw;
+    font-family: "Newsreader", serif;
+  }
+  .username{
+    font-weight: bolder;
+    font-size: 1.4vw;
+    font-family: "Poppins", sans-serif;
+    padding-right: 2%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
   img.avatar {
     height: 35px;
     width: 35px;
@@ -141,11 +233,20 @@
   }
   
   .user .btn-outline-secondary{
+    text-align: start;
+    font-family: "Newsreader", serif;
     font-size: 1.4vw;
     color: black;
+    padding-top: 2.5%;
+    width: 30vw;
+    max-width: 30vw;
   }
   .user .btn-outline-secondary:hover{
     background-color: transparent;
+  }
+
+  .user{
+    margin-top: 3%;
   }
 
   .content4 .header{
@@ -181,7 +282,7 @@
   }
   .content2 p {
     padding-left: 5%;
-    font-size: 1.8vw;
+    font-size: 2vw;
     color: #3c4048;
     font-weight: 900;
     font-family: "Newsreader", serif;
@@ -224,8 +325,8 @@
     font-weight: bolder;
   }
   img{
-    height:20vw;
-    width:50vw;
+    height:30vw;
+    width:55vw;
   }
   .butt{
     font-family: "Newsreader", serif;
