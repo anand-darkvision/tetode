@@ -7,7 +7,7 @@
     <p>
       <span class="span-icon">
         <i class="fa-solid fa-arrow-trend-up fa-beat-fade" /></span
-      >What's new TODAY
+      >Stay in the loop! Discover what's new today
     </p>
   </div>
   <div class="card-grid " style="">

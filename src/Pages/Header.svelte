@@ -7,9 +7,9 @@
 >
   <div class="card-body">
     <h5 class="card-title">Stay Creative..!!</h5>
-    <p class="card-text">Share, Disscuss, Create</p>
+    <p class="card-text">Connect, Collaborate, Create! </p>
     <p class="card-text second" style="padding-top: 0;">
-      New Ideas And Connect People Around The world
+      Join us to share and discuss new ideas with people from around the world.
     </p>
   </div>
 </div>

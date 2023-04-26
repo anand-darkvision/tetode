@@ -7,7 +7,39 @@
 <NavBar />
 
 <div class="content1">
-  <p class="content-text">Build Your Ideas From Tetode</p>
+  <!-- <p class="content-text">Build Your Ideas From Tetode</p> -->
+  <div class="waviy">
+    <span style="--i:1">B</span>
+    <span style="--i:2">u</span>
+    <span style="--i:3">i</span>
+    <span style="--i:4">l</span>
+    <span style="--i:5">d</span>
+    <span style="padding-left: 1%;"></span>
+    <span style="--i:7">Y</span>
+    <span style="--i:8">o</span>
+    <span style="--i:9">u</span>
+    <span style="--i:10">r</span>
+    <span style="padding-left: 1%;"></span>
+    <span style="--i:11">I</span>
+    <span style="--i:12">d</span>
+    <span style="--i:13">e</span>
+    <span style="--i:14">a</span>
+    <span style="--i:15">s</span>
+    <span style="padding-left: 1%;"></span>
+    <span style="--i:16">W</span>
+    <span style="--i:17">i</span>
+    <span style="--i:18">t</span>
+    <span style="--i:19">h</span>
+    <span style="padding-left: 1%;"></span>
+    <span style="--i:20">U</span>
+    <span style="--i:21">s</span>
+    <span style="padding-left: 1%;"></span>
+    <span style="--i:22">T</span>
+    <span style="--i:23">O</span>
+    <span style="--i:24">D</span>
+    <span style="--i:25">A</span>
+    <span style="--i:26">Y</span>
+   </div>
 </div>
 <hr style="margin-top: 7%;margin-bottom: 0;" />
 <div style="margin:0px">
@@ -24,9 +56,12 @@
         potential.
       </p>
     </div>
-    <div class="col-6" style="padding: 0px;">
-      <div class="image">
-        <img src={MainImage} alt="Tetode">
+    <div class="col-6 content22" style="padding: 0px;">
+      <p>
+        Collaborate and Create with Communication!
+      </p>
+      <div class="readblog">
+        <button type="button" class="btn btn-outline-secondary" style="font-size:2vw;border-radius: 30px;">Read Our Blog</button>
       </div>
     </div>
   </div>
@@ -34,10 +69,13 @@
 <hr style="margin-bottom: 0;margin-top: 0;background-color: white;" />
 <div class="content3">
   <p class="headerContent" style="padding-top:2%">
-    We Provide the space to Work And Collabrate 
+    Looking for a space to work and collaborate?
   </p>
   <p class="headerContent2">
-    Your IDEAS
+    We've got you covered!
+  </p>
+  <p class="headerContent3">
+    Share your ideas with Tetode.
   </p>
   <p class="quotes" style="padding-top: 3%;">
       The more an idea is developed, the more concise becomes its expression;
@@ -52,13 +90,13 @@
   <!-- Famous Articles -->
 
   <div class="butt" style="padding-bottom: 5%;">
-    <button type="button" class="btn btn-outline-secondary" style="font-size:2vw;border-radius: 30px;">Join Us Today</button>
+    <button type="button" class="btn btn-outline-secondary" style="font-size:2vw;border-radius: 8vw;">Join Us Today</button>
   </div>
 </div>
 <hr style="margin-bottom: 0; margin-top: 0; background-color: white;"/>
 <div class="content4">
   <p class="header">
-    Read Our Latest Articles
+    Get the scoop! Check out our latest articles now.
   </p>
     <div class="row row-cols-2 row-cols-lg-3 g-5 g-lg-3">
       <div class="col">
@@ -168,7 +206,7 @@
             class="avatar"
             src="https://randomuser.me/api/portraits/men/68.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross 12 million......."</button>
+          /> <span class="username">@rocky67</span> "There is a Change in Edu......."</button>
         </div>
       </div>
       <div class="col">
@@ -178,12 +216,11 @@
             class="avatar"
             src="https://randomuser.me/api/portraits/men/67.jpg"
             alt="user"
-          /> @adam123 "ChatGpt Cross 12 million......."</button>
+          /> <span class="username">@MrUnknown</span> "China Supports for......."</button>
         </div>
-        <br>
       </div>
     </div>
-    <hr style="padding-bottom: 2%;">
+    <hr style="padding-bottom: 2%;margin-top:5%;">
     <div class="read">
       <p>To Know more ...</p>
     </div>
@@ -198,6 +235,50 @@
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
+
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 5vw;
+  font-family: "Newsreader", serif;
+  font-weight:550;
+  color: #000;
+  animation: flip 5s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+  .readblog{
+    padding-top: 3%;
+    text-align: center;
+    justify-content: center;
+  }
+  .readblog button{
+    font-family: "Newsreader", serif;
+    background-color: #000;
+    padding: 1% 1% 1% 1%;
+  }
+
+  .content22 p{
+    font-size: 3.8vw;
+    font-family: "Newsreader", serif;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 8%;
+  }
   .readmore{
     padding-bottom: 5%;
   }
@@ -261,12 +342,6 @@
     border: none;
     border-top: 2px solid black;
   }
-  .content-text {
-    color: black;
-    font-size: 4vw;
-    font-weight: 100;
-    font-family: "Newsreader", serif;
-  }
   .content1 {
     text-align: center;
     align-items: center;
@@ -309,8 +384,14 @@
   }
   .headerContent2{
     font-family: "Newsreader", serif;
-    font-weight: bolder;
-    font-size:4.5vw
+    font-weight: 200;
+    font-size:5vw
+  }
+
+  .headerContent3{
+    font-family: "Newsreader", serif;
+    font-weight: 200;
+    font-size:5vw
   }
   .quotes{
     font-family: "Newsreader", serif;
@@ -334,6 +415,7 @@
 
   .btn-outline-secondary{
     color:white;
+    padding: 1% 1% 1% 1%;
   }
   .btn-outline-secondary:hover {
     background-color: white;

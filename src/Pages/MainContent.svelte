@@ -181,7 +181,7 @@
       </div>
       <div class="col-4 text-center">
         <div class="side" style="justify-content:left;">
-          <h3>Search For Specified Contents</h3>
+          <h3>Find it fast!</h3>
           <button type="button" class="btn btn-outline-secondary">Food</button>
           <button type="button" class="btn btn-outline-secondary"
             >Computer</button
