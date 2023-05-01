@@ -95,13 +95,13 @@
 </div>
 <hr style="margin-bottom: 0; margin-top: 0; background-color: white;"/>
 <div class="content4">
-  <p class="header">
+  <p class="header" style="margin-bottom: 2%;">
     Get the scoop! Check out our latest articles now.
   </p>
     <div class="row row-cols-2 row-cols-lg-3 g-5 g-lg-3">
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/77.jpg"
@@ -111,7 +111,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/78.jpg"
@@ -121,17 +121,17 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/67.jpg"
             alt="user"
-          /> <span class="username">@soma45</span>"Got the worst Experience........"</button>
+          /> <span class="username">@soma2720</span>"Got the worst Experience........"</button>
         </div>
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/56.jpg"
@@ -141,7 +141,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/71.jpg"
@@ -151,7 +151,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/73.jpg"
@@ -161,7 +161,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/74.jpg"
@@ -171,7 +171,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/79.jpg"
@@ -181,7 +181,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/78.jpg"
@@ -191,7 +191,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/69.jpg"
@@ -201,7 +201,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/68.jpg"
@@ -211,7 +211,7 @@
       </div>
       <div class="col">
         <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
+          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
             <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/67.jpg"
@@ -319,6 +319,7 @@
     font-size: 1.4vw;
     color: black;
     padding-top: 2.5%;
+    padding-bottom: 2.5%;
     width: 30vw;
     max-width: 30vw;
   }

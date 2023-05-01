@@ -214,7 +214,7 @@
           </p>
         </div>
         <div class="copyr">
-          <p>Tetode © 2023</p>
+          <p>Tetode &copy; 2023</p>
         </div>
       </div>
     </div>
