@@ -1,18 +1,17 @@
-<script >
+<script>
   import {
     GoogleAuthProvider,
     signInWithPopup,
     getAuth,
     onAuthStateChanged,
-  } from 'firebase/auth';
+  } from "firebase/auth";
   import Logo from "../Assets/logo_tranparent.png";
   import { onMount } from "svelte";
   import { initializeApp } from "firebase/app";
 
   // firebase config
 
-
-  let user=null;
+  let user = null;
 
   const firebaseConfig = {
     apiKey: "AIzaSyCBH-d34GR4q-qv3yWolY2yxc_rsUsyWcw",
@@ -52,9 +51,9 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div id="overlay" on:click={off}>
-  <div class="card" style="width:35%; height:50%;border-radius: 20px;">
+  <div class="card">
     <div class="card-body">
-      <h5 class="card-title text-center fs-3">Welcome Back</h5>
+      <h5 class="card-title text-center">Welcome Back</h5>
       <div
         class="loader"
         style="display: flex; justify-content: center;padding-top: 5%;"
@@ -109,7 +108,7 @@
         </svg>
       </div>
       <div style="padding-top: 2%%;display: flex;justify-content: center;">
-        <a href="#ds" class="google btn fs-4" style="color:#FE6244" on:click={login}>
+        <a href="#ds" class="google btn" style="color:#FE6244" on:click={login}>
           <i class="fa fa-google fa-fw fs-4" /> Login with Google
         </a>
       </div>
@@ -189,23 +188,28 @@
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+  .card {
+    width: 35%;
+    height: 50%;
+    border-radius: 20px;
+  }
+  /* Common styles for all screens */
   a {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
   }
+
   a:hover {
     color: gray !important;
   }
+
   .navbar {
     background-color: white;
   }
-  .card-title {
-    font-family: "Poppins", sans-serif;
-    padding-top: 6%;
-  }
-  .tandc {
-    color: gray;
-    padding-left: 1%;
+
+  .google {
+    font-size: 30px;
   }
 
   #overlay {
@@ -221,20 +225,28 @@
     z-index: 2;
     cursor: pointer;
   }
+
+  .card-title {
+    font-family: "Poppins", sans-serif;
+    padding-top: 6%;
+    font-size: 22px;
+  }
+
+  .tandc {
+    color: gray;
+    padding-left: 1%;
+  }
+
   .forget {
     text-decoration: none;
     color: gray;
     padding-top: 5%;
   }
+
   .forget:hover {
     text-decoration: underline;
   }
-  
-  .card {
-    position: absolute;
-    top: 22%;
-    left: 32%;
-  }
+
   .pl {
     width: 6em;
     height: 6em;
@@ -263,6 +275,47 @@
     stroke: #f42582;
   }
 
+  /* Common styles for screens with a width less than or equal to 600px */
+  @media (max-width: 600px) {
+    .card {
+      position: absolute;
+      top: 20%;
+      left: 15%;
+      width: 70% !important;
+      height: 70% !important;
+    }
+
+    .card-title {
+      font-size: 20px;
+    }
+
+    .pl {
+      width: 3em;
+      height: 3em;
+    }
+
+    .google {
+      font-size: 20px;
+    }
+  }
+
+  /* Styles for screens with a width between 601px and 1024px */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .card {
+      position: absolute;
+      top: 15%;
+      left: 15%;
+    }
+  }
+
+  /* Styles for screens with a width greater than 1024px */
+  @media (min-width: 1025px) {
+    .card {
+      position: absolute;
+      top: 22%;
+      left: 32%;
+    }
+  }
   /* Animations */
   @keyframes ringA {
     from,
