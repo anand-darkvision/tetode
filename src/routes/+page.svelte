@@ -16,5 +16,14 @@
 <NavBar />
 <Header />
 <NewContent />
-<MainContent />
+<div class="main-content-container">
+  <MainContent />
+</div>
 
+<style>
+  .main-content-container {
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+</style>
