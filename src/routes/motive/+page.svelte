@@ -14,32 +14,32 @@
     <span style="--i:3">i</span>
     <span style="--i:4">l</span>
     <span style="--i:5">d</span>
-    <span style="padding-left: 1%;"></span>
+    <span style="padding-left: 1%;" />
     <span style="--i:7">Y</span>
     <span style="--i:8">o</span>
     <span style="--i:9">u</span>
     <span style="--i:10">r</span>
-    <span style="padding-left: 1%;"></span>
+    <span style="padding-left: 1%;" />
     <span style="--i:11">I</span>
     <span style="--i:12">d</span>
     <span style="--i:13">e</span>
     <span style="--i:14">a</span>
     <span style="--i:15">s</span>
-    <span style="padding-left: 1%;"></span>
+    <span style="padding-left: 1%;" />
     <span style="--i:16">W</span>
     <span style="--i:17">i</span>
     <span style="--i:18">t</span>
     <span style="--i:19">h</span>
-    <span style="padding-left: 1%;"></span>
+    <span style="padding-left: 1%;" />
     <span style="--i:20">U</span>
     <span style="--i:21">s</span>
-    <span style="padding-left: 1%;"></span>
+    <span style="padding-left: 1%;" />
     <span style="--i:22">T</span>
     <span style="--i:23">O</span>
     <span style="--i:24">D</span>
     <span style="--i:25">A</span>
     <span style="--i:26">Y</span>
-   </div>
+  </div>
 </div>
 <hr style="margin-top: 7%;margin-bottom: 0;" />
 <div style="margin:0px">
@@ -57,11 +57,13 @@
       </p>
     </div>
     <div class="col-6 content22" style="padding: 0px;">
-      <p>
-        Collaborate and Create with Communication!
-      </p>
+      <p>Collaborate and Create with Communication!</p>
       <div class="readblog">
-        <button type="button" class="btn btn-outline-secondary" style="font-size:2vw;border-radius: 30px;">Read Our Blog</button>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="font-size:2vw;border-radius: 30px;">Read Our Blog</button
+        >
       </div>
     </div>
   </div>
@@ -71,207 +73,272 @@
   <p class="headerContent" style="padding-top:2%">
     Looking for a space to work and collaborate?
   </p>
-  <p class="headerContent2">
-    We've got you covered!
-  </p>
-  <p class="headerContent3">
-    Share your ideas with Tetode.
-  </p>
+  <p class="headerContent2">We've got you covered!</p>
+  <p class="headerContent3">Share your ideas with Tetode.</p>
   <p class="quotes" style="padding-top: 3%;">
-      The more an idea is developed, the more concise becomes its expression;
+    The more an idea is developed, the more concise becomes its expression;
   </p>
-  <p class="quotes">
-      the more a tree is pruned, the better is the fruit.
-  </p>
-  <p class="author">
-    - Alfred Bougeart
-  </p>
+  <p class="quotes">the more a tree is pruned, the better is the fruit.</p>
+  <p class="author">- Alfred Bougeart</p>
 
   <!-- Famous Articles -->
 
   <div class="butt" style="padding-bottom: 5%;">
-    <button type="button" class="btn btn-outline-secondary" style="font-size:2vw;border-radius: 8vw;">Join Us Today</button>
+    <button
+      type="button"
+      class="btn btn-outline-secondary"
+      style="font-size:2vw;border-radius: 8vw;">Join Us Today</button
+    >
   </div>
 </div>
-<hr style="margin-bottom: 0; margin-top: 0; background-color: white;"/>
+<hr style="margin-bottom: 0; margin-top: 0; background-color: white;" />
 <div class="content4">
   <p class="header" style="margin-bottom: 2%;">
     Get the scoop! Check out our latest articles now.
   </p>
-    <div class="row row-cols-2 row-cols-lg-3 g-5 g-lg-3">
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+  <div class="row row-cols-2 row-cols-lg-3 g-5 g-lg-3">
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/77.jpg"
             alt="user"
-          /> <span class="username">@adam123</span>"ChatGpt Cross 12 million......."</button>
-        </div>
+          /> <span class="username">@adam123</span>"ChatGpt Cross 12
+          million......."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/78.jpg"
             alt="user"
-          /><span class="username">@taktak23</span> "17 Found dead on hillside......."</button>
-        </div>
+          /><span class="username">@taktak23</span> "17 Found dead on hillside......."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/67.jpg"
             alt="user"
-          /> <span class="username">@soma2720</span>"Got the worst Experience........"</button>
-        </div>
+          /> <span class="username">@soma2720</span>"Got the worst
+          experience...."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/56.jpg"
             alt="user"
-          /> <span class="username">@harik69 </span>"The finnest Wine on ........"</button>
-        </div>
+          /> <span class="username">@harik69 </span>"The finnest Wine on
+          ........"</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/71.jpg"
             alt="user"
-          /> <span class="username">@macintosh</span>"Apple launches mac m2....."</button>
-        </div>
+          /> <span class="username">@macintosh</span>"Apple launches mac
+          m2....."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/73.jpg"
             alt="user"
-          /> <span class="username">@joes233</span>"The F1 Race stops due to......."</button>
-        </div>
+          /> <span class="username">@joes233</span>"The F1 Race stops due
+          to......."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px;border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/74.jpg"
             alt="user"
-          /> <span class="username">@anime34</span>"The "Your Name" anime......."</button>
-        </div>
+          /> <span class="username">@anime34</span>"The "Your Name"
+          anime......."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/79.jpg"
             alt="user"
-          /> <span class="username">@ram345 </span>"Indian Railway shows......"</button>
-        </div>
+          /> <span class="username">@ram345 </span>"Indian Railway shows......"</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/78.jpg"
             alt="user"
-          /> <span class="username">@rios245</span>"Avatar wins OSCAR on......."</button>
-        </div>
+          /> <span class="username">@rios245</span>"Avatar wins OSCAR on......."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/69.jpg"
             alt="user"
-          /> <span class="username">@devilips</span>"Government funding......."</button>
-        </div>
+          />
+          <span class="username">@devilips</span> "Government funding......."
+        </button>
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/68.jpg"
             alt="user"
-          /> <span class="username">@rocky67</span> "There is a Change in Edu......."</button>
-        </div>
+          /> <span class="username">@rocky67</span> "There is a Change in Edu......."</button
+        >
       </div>
-      <div class="col">
-        <div class="user">
-          <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px; border-color: black;">
-            <img
+    </div>
+    <div class="col">
+      <div class="user">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          style="border-radius: 30px; border-color: black; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        >
+          <img
             class="avatar"
             src="https://randomuser.me/api/portraits/men/67.jpg"
             alt="user"
-          /> <span class="username">@MrUnknown</span> "China Supports for......."</button>
-        </div>
+          /> <span class="username">@MrUnknown</span> "China Supports for......."</button
+        >
       </div>
     </div>
-    <hr style="padding-bottom: 2%;margin-top:5%;">
-    <div class="read">
-      <p>To Know more ...</p>
-    </div>
-    <div class="readmore">
-      <a href="#ds">ReadMore --></a>
-    </div>
-    
   </div>
+  <hr style="padding-bottom: 2%;margin-top:5%;" />
+  <div class="read">
+    <p>To Know more ...</p>
+  </div>
+  <div class="readmore">
+    <a href="#ds">ReadMore --></a>
+  </div>
+</div>
 
 <!-- footer -->
-<Footer/>
+<Footer />
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
 
   * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.waviy {
-  position: relative;
-}
-.waviy span {
-  position: relative;
-  display: inline-block;
-  font-size: 5vw;
-  font-family: "Newsreader", serif;
-  font-weight:550;
-  color: #000;
-  animation: flip 5s infinite;
-  animation-delay: calc(.2s * var(--i))
-}
-@keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
-}
+  .waviy {
+    position: relative;
+    text-align: center;
+  }
+  .waviy span {
+    display: inline-block;
+    font-size: 3.4vw; /* Adjust the font size for mobile */
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    color: #000;
+    animation: flip 5s infinite;
+    animation-delay: calc(0.2s * var(--i));
+    white-space: nowrap;
+    padding: 0 0.2em;
+  }
+  @keyframes flip {
+    0%,
+    80% {
+      transform: rotateY(360deg);
+    }
+  }
 
-  .readblog{
+  .readblog {
     padding-top: 3%;
     text-align: center;
     justify-content: center;
   }
-  .readblog button{
+  .readblog button {
     font-family: "Newsreader", serif;
     background-color: #000;
     padding: 1% 1% 1% 1%;
   }
 
-  .content22 p{
+  .content22 p {
     font-size: 3.8vw;
     font-family: "Newsreader", serif;
     text-align: center;
@@ -279,25 +346,25 @@
     padding-right: 2%;
     padding-top: 8%;
   }
-  .readmore{
+  .readmore {
     padding-bottom: 5%;
   }
-  .readmore a{
+  .readmore a {
     text-decoration: none;
     color: black;
     font-size: 2vw;
     font-family: "Poppins", sans-serif;
   }
 
-  .readmore a:hover{
+  .readmore a:hover {
     color: grey;
     text-decoration: underline;
   }
-  .read p{
+  .read p {
     font-size: 5vw;
     font-family: "Newsreader", serif;
   }
-  .username{
+  .username {
     font-weight: bolder;
     font-size: 1.4vw;
     font-family: "Poppins", sans-serif;
@@ -312,8 +379,8 @@
     border-radius: 50%;
     vertical-align: middle;
   }
-  
-  .user .btn-outline-secondary{
+
+  .user .btn-outline-secondary {
     text-align: start;
     font-family: "Newsreader", serif;
     font-size: 1.4vw;
@@ -323,15 +390,15 @@
     width: 30vw;
     max-width: 30vw;
   }
-  .user .btn-outline-secondary:hover{
+  .user .btn-outline-secondary:hover {
     background-color: transparent;
   }
 
-  .user{
+  .user {
     margin-top: 3%;
   }
 
-  .content4 .header{
+  .content4 .header {
     font-size: 4vw;
     font-weight: 900;
     font-family: "Newsreader", serif;
@@ -363,7 +430,7 @@
     font-weight: 900;
     font-family: "Newsreader", serif;
   }
-  .content3{
+  .content3 {
     max-width: 100%;
     background-color: #000;
     color: white;
@@ -371,56 +438,67 @@
     text-align: center;
   }
 
-  .content4{
+  .content4 {
     max-width: 100%;
-    background-color: #FFA559;
+    background-color: #ffa559;
     color: #000;
     justify-content: center;
     text-align: center;
   }
-  .headerContent{
+  .headerContent {
     font-family: "Newsreader", serif;
     font-weight: 200;
     font-size: 5vw;
   }
-  .headerContent2{
+  .headerContent2 {
     font-family: "Newsreader", serif;
     font-weight: 200;
-    font-size:5vw
+    font-size: 5vw;
   }
 
-  .headerContent3{
+  .headerContent3 {
     font-family: "Newsreader", serif;
     font-weight: 200;
-    font-size:5vw
+    font-size: 5vw;
   }
-  .quotes{
+  .quotes {
     font-family: "Newsreader", serif;
     font-weight: 800;
-    font-size:2vw;
+    font-size: 2vw;
   }
-  .author{
+  .author {
     font-family: "Newsreader", serif;
     padding-left: 40%;
     padding-top: 1%;
     font-size: large;
     font-weight: bolder;
   }
-  img{
-    height:30vw;
-    width:55vw;
+  img {
+    height: 30vw;
+    width: 55vw;
   }
-  .butt{
+  .butt {
     font-family: "Newsreader", serif;
   }
 
-  .btn-outline-secondary{
-    color:white;
+  .btn-outline-secondary {
+    color: white;
     padding: 1% 1% 1% 1%;
   }
   .btn-outline-secondary:hover {
     background-color: white;
     color: black;
   }
+  @media screen and (max-width: 767px) {
+    .waviy span {
+      font-size: 8vw; /* Adjust the font size for smaller screens */
+    }
+    .content2 p {
+      padding: 8% 10px; /* Adjust the padding for responsiveness */
+    }
 
+    .content22 p {
+      padding: 8% 10px; /* Adjust the padding for responsiveness */
+    }
+  }
 </style>

@@ -22,7 +22,7 @@
 
 <style>
   .main-content-container {
-    max-height: calc(100vh - 60px);
+    max-height: calc(98vh - 60px);
     overflow-y: auto;
     overflow-x: hidden;
   }
